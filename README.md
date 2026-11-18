@@ -6,7 +6,7 @@ the LAN through an always-on catcher tunnel.
 
 This repo is the real thing: actual `server.properties`, actual plugin configs,
 actual item/skill/quest definitions, pulled straight from the live box. It's the
-companion to [mc-serverless-proxy](https://github.com/mliem2k/mc-serverless-proxy),
+companion to [mc-serverless-proxy](https://github.com/mliemm/mc-serverless-proxy),
 which documents the generic wake-on-demand catcher/relay architecture with
 placeholder values so it stands alone as a reference implementation. That repo is
 included here as the `infra/` submodule.
@@ -22,7 +22,7 @@ included here as the `infra/` submodule.
   themselves, see `plugins.md` for why and where to get them).
 - `plugins.md` — the full plugin list: versions where confirmable, source links,
   and what got deliberately left out (player data, world data, secrets).
-- `infra/`, git submodule, [mc-serverless-proxy](https://github.com/mliem2k/mc-serverless-proxy):
+- `infra/`, git submodule, [mc-serverless-proxy](https://github.com/mliemm/mc-serverless-proxy):
   the catcher always-on tunnel infrastructure and the custom UDP relay for Bedrock,
   with placeholder values instead of this server's real ones. The regional
   low-latency relay VM this repo used to also front was fully decommissioned; only
@@ -67,7 +67,7 @@ on disk, not deleted. Full list with versions and source links in `plugins.md`.
 ## Cloning
 
 ```bash
-git clone --recurse-submodules https://github.com/mliem2k/mliem-mc-server.git
+git clone --recurse-submodules https://github.com/mliemm/mliem-mc-server.git
 ```
 
 If you already cloned without `--recurse-submodules`:
